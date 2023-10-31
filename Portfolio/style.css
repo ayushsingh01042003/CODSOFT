@@ -85,3 +85,11 @@ footer {
     color: #fff;
     text-align: center;
 }
+
+#landing-page {
+    max-width: 40vw;
+}
+
+#calc {
+    max-width: 40vw;
+}
