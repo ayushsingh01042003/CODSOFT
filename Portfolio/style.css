@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+header {
+    background-color: #333333;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.skills,
+.projects,
+.resume,
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#about {
+    max-width: 50vw;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#skills li {
+    flex-basis: calc(33.33% - 20px); /* Adjust as needed for margin */
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+}
